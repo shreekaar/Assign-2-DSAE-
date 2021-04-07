@@ -1,0 +1,11 @@
+Find the time complexity of the following code.
+int a = 1, b = 1;
+while(b <= n)
+{
+a++;
+b += a;
+cout<<"HI Coders"<<endl;
+}
+
+Output:
+O(n) i.e HI Coders will be printed n times 
